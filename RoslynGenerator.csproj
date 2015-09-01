@@ -43,7 +43,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="BaseCustomToolGenerator.cs" />
-    <Compile Include="CustomToolCompileGenerator.cs" />
+    <Compile Include="RoslynGeneratorPackage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

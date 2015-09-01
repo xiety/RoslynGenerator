@@ -50,7 +50,7 @@ namespace RoslynGenerator
 			var root = syntaxTree.GetRoot();
 			root = Construct(root, semanticModel);
 
-			//doesn't always work as expected
+			//doesn't always work as expected, some code stays unformatted
 			root = Formatter.Format(root, solution.Workspace);
 
 			var newSyntaxTree = CSharpSyntaxTree.Create((CSharpSyntaxNode)root);
